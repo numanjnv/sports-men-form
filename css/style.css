@@ -1,0 +1,185 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.box{
+  width: 1000px;
+  border-radius: 15px;
+  background: #F8F8F8;
+  display: flex;
+  justify-content: space-between;
+}
+.box>img{
+  object-fit: cover;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 109px;
+}
+.form>h1{
+  margin-top:100px ;
+  color: #030303;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.02px;
+  text-transform: uppercase;
+}
+.form>p{
+  color: #636364;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  margin-bottom: 37px;
+}
+label.email{
+  color: #181818;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  margin-bottom: 6.2px;
+}
+input.email{
+  color: #636364;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  padding: 11px 0px 6.2px 15px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background: rgba(196, 196, 196, 0.00);
+  margin-bottom: 22px;
+  width: 344px;
+}
+label.password{
+  color: #181818;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  margin-bottom: 6.2px;
+}
+input.password{
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background: rgba(196, 196, 196, 0.00);
+  color: #636364;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  padding: 11px 0px 6.2px 15px;
+  margin-bottom: 21.7px;
+  width: 344px;
+}
+.box-1{
+  display:flex;
+  align-items: center;
+  margin-bottom: 11.3px;
+}
+input.checkbox{
+  margin-right:6.2px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background: rgba(196, 196, 196, 0.00);
+  width: 14.459px;
+  height: 13.426px;
+}
+label.checkbox{
+  margin-right:79.5px ;
+  color: #181818;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+label.forgot-password{
+  color: #181818;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+button.sign-in{
+  color: #FFF;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  padding: 11px 0px 8px 0px;
+  border-radius: 12px;
+  background: #EA454C;
+  width: 344px;
+  margin-bottom: 11.3px;
+  border-color: white;
+}
+button.sign-in-with-google{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15.7px;
+}
+.sign-in-with-google{
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background: rgba(234, 69, 76, 0.00);
+  width: 344px;
+  padding: 6.2px 0px 6.2px 0px;
+}
+.sign-in-with-google>img{
+  margin-right: 6.2px;
+}
+.form-footer{
+  display: flex;
+  width: 344px;
+  justify-content: center;
+  margin-bottom: 101px;
+}
